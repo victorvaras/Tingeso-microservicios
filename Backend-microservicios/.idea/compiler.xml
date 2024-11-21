@@ -8,6 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="eureka-service" />
+        <module name="tipo-prestamo-services" />
         <module name="geteway-service" />
         <module name="cliente-service" />
         <module name="config-service" />
@@ -21,6 +22,7 @@
       <module name="config-service" options="-parameters" />
       <module name="eureka-service" options="-parameters" />
       <module name="geteway-service" options="-parameters" />
+      <module name="tipo-prestamo-services" options="-parameters" />
     </option>
   </component>
 </project>
