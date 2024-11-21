@@ -18,15 +18,16 @@ spring:
             allowed-methods: "*"
             allowed-headers: "*"
             allow-credentials: true
-      routes:
-        - id: user-microservice
-          uri: lb://user-microservice
-          predicates:
-            - Path=/user/**
+      routes:        
         - id: cliente-service
           uri: lb://cliente-service
           predicates:
             - Path=/cliente/**
+
+        - id: tipo-prestamo-service
+          uri: lb://tipo-prestamo-service
+          predicates:
+            - Path=/tipo_prestamo/**
         
 
 eureka:
