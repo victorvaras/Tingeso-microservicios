@@ -23,22 +23,11 @@ spring:
           uri: lb://user-microservice
           predicates:
             - Path=/user/**
-        - id: credit-microservice
-          uri: lb://credit-microservice
+        - id: cliente-service
+          uri: lb://cliente-service
           predicates:
-            - Path=/credit/**
-        - id: document-microservice
-          uri: lb://document-microservice
-          predicates:
-            - Path=/document/**
-        - id: financialEvaluation-microservice
-          uri: lb://financialEvaluation-microservice
-          predicates:
-            - Path=/financialEvaluation/**
-        - id: utils-microservice
-          uri: lb://utils-microservice
-          predicates:
-            - Path=/utils/**
+            - Path=/cliente/**
+        
 
 eureka:
   client:
