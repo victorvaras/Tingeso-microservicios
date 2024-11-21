@@ -9,4 +9,4 @@ spring:
         git:
           uri: https://github.com/victorvaras/config-data.git
           default-label: main
-          search-paths: config-dataspring.application.name=config-service
+          search-paths: config-data
