@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: evaluacion-credito-service
+  config:
+    import: configserver:http://localhost:8888

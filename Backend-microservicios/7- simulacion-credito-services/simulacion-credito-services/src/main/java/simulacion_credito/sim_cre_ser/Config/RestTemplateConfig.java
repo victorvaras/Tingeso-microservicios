@@ -1,4 +1,4 @@
-package simulacion_credito.simulacion_credito_services.Config;
+package simulacion_credito.sim_cre_ser.Config;
 
 import org.springframework.cloud.client.loadbalancer.LoadBalanced;
 import org.springframework.context.annotation.Bean;

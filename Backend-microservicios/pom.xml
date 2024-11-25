@@ -21,6 +21,10 @@
         <module>2- eureka-service/eureka-service</module>
         <module>3- geteway-service/geteway-service</module>
 		<module>4- cliente-service/cliente-service</module>
+		<module>5- evaluacion-credito-services/evaluacion-credito-services</module>
+		<module>6- seguimiento-solicitud-services/seguimiento-solicitud-services</module>
+		<module>7- simulacion-credito-services/simulacion-credito-services</module>
+		<module>8- solicitud-credito-services/solicitud-credito-services</module>
 		<module>9- tipo-prestamo-services/tipo-prestamo-services</module>
     </modules>
 	<properties>

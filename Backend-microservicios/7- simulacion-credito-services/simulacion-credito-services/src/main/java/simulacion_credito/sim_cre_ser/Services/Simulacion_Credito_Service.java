@@ -1,11 +1,11 @@
-package simulacion_credito.simulacion_credito_services.Services;
+package simulacion_credito.sim_cre_ser.Services;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
-import simulacion_credito.simulacion_credito_services.Entity.Simulacion_Credito_Entity;
-import simulacion_credito.simulacion_credito_services.Models.Tipo_Prestamo_Entity;
-import simulacion_credito.simulacion_credito_services.Repopsitory.Simulacion_Credito_Repository;
+import simulacion_credito.sim_cre_ser.Entity.Simulacion_Credito_Entity;
+import simulacion_credito.sim_cre_ser.Models.Tipo_Prestamo_Entity;
+import simulacion_credito.sim_cre_ser.Repopsitory.Simulacion_Credito_Repository;
 
 @Service
 public class Simulacion_Credito_Service {

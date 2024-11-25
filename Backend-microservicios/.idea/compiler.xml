@@ -9,9 +9,13 @@
         <outputRelativeToContentRoot value="true" />
         <module name="eureka-service" />
         <module name="tipo-prestamo-services" />
-        <module name="geteway-service" />
         <module name="cliente-service" />
+        <module name="evaluacion-credito-services" />
         <module name="config-service" />
+        <module name="geteway-service" />
+        <module name="simulacion-credito-services" />
+        <module name="seguimiento-solicitud-services" />
+        <module name="solicitud-credito-services" />
       </profile>
     </annotationProcessing>
   </component>
@@ -21,7 +25,11 @@
       <module name="cliente-service" options="-parameters" />
       <module name="config-service" options="-parameters" />
       <module name="eureka-service" options="-parameters" />
+      <module name="evaluacion-credito-services" options="-parameters" />
       <module name="geteway-service" options="-parameters" />
+      <module name="seguimiento-solicitud-services" options="-parameters" />
+      <module name="simulacion-credito-services" options="-parameters" />
+      <module name="solicitud-credito-services" options="-parameters" />
       <module name="tipo-prestamo-services" options="-parameters" />
     </option>
   </component>

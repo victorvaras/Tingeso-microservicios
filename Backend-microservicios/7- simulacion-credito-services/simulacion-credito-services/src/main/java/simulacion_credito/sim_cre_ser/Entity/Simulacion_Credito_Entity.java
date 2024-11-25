@@ -1,4 +1,4 @@
-package simulacion_credito.simulacion_credito_services.Entity;
+package simulacion_credito.sim_cre_ser.Entity;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;

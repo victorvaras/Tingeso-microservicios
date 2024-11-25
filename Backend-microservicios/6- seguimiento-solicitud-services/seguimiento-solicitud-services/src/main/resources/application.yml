@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: seguimiento-solicitud-service
+  config:
+    import: configserver:http://localhost:8888
