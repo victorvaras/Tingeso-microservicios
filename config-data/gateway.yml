@@ -24,10 +24,32 @@ spring:
           predicates:
             - Path=/cliente/**
 
+        - id: evaluacion-credito-service
+          uri: lb://evaluacion-credito-service
+          predicates:
+            - Path=/evaluacion_credito/**
+
+        - id: seguimiento-solicitud-service
+          uri: lb://seguimiento-solicitud-service
+          predicates:
+            - Path=/seguimiento_solicitud/**
+
+        - id: simulacion-credito-service
+          uri: lb://simulacion-credito-service
+          predicates:
+            - Path=/simulacion_credito/**
+
+        - id: solicitud-credito-service
+          uri: solicitud-credito-service
+          predicates:
+            - Path=/solicitud_credito/**
+
         - id: tipo-prestamo-service
           uri: lb://tipo-prestamo-service
           predicates:
             - Path=/tipo_prestamo/**
+
+       
         
 
 eureka:

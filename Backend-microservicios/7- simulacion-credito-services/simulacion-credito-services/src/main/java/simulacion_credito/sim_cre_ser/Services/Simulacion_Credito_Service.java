@@ -8,7 +8,7 @@ import simulacion_credito.simulacion_credito_services.Models.Tipo_Prestamo_Entit
 import simulacion_credito.simulacion_credito_services.Repopsitory.Simulacion_Credito_Repository;
 
 @Service
-public class Simulacion_Credito_Sercive {
+public class Simulacion_Credito_Service {
 
     @Autowired
     Simulacion_Credito_Repository simulacion_credito_repository;
