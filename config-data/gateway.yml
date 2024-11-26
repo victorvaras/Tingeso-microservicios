@@ -60,3 +60,9 @@ eureka:
   instance:
     preferIpAddress: true
     ip-address: localhost
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
