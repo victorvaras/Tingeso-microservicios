@@ -40,7 +40,7 @@ spring:
             - Path=/simulacion_credito/**
 
         - id: solicitud-credito-service
-          uri: solicitud-credito-service
+          uri: lb://solicitud-credito-service
           predicates:
             - Path=/solicitud_credito/**
 

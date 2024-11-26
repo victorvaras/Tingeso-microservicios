@@ -1,0 +1,9 @@
+config-service                          Listo
+eureka-service                          Listo
+geteway-service                         Listo
+cliente-service                         Listo
+evaluacion-credito-services
+seguimiento-solicitud-services
+simulacion-credito-services         
+solicitud-credito-services
+tipo-prestamo-services
