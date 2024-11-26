@@ -1,4 +1,4 @@
-package evaluacion_credito.evaluacion_credito_services;
+package evaluacion_credito.eva_cred_serv;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

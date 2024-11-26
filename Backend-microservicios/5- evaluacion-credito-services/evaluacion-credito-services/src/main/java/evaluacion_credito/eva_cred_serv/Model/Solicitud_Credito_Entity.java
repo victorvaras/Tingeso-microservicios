@@ -1,4 +1,4 @@
-package evaluacion_credito.evaluacion_credito_services.Model;
+package evaluacion_credito.eva_cred_serv.Model;
 
 
 import jakarta.persistence.Lob;

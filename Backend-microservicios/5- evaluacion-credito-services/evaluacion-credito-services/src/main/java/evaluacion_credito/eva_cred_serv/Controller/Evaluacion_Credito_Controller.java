@@ -1,7 +1,7 @@
-package evaluacion_credito.evaluacion_credito_services.Controller;
+package evaluacion_credito.eva_cred_serv.Controller;
 
-import evaluacion_credito.evaluacion_credito_services.Entity.Evaluacion_Credito_Entity;
-import evaluacion_credito.evaluacion_credito_services.Service.Evaluacion_Credito_service;
+import evaluacion_credito.eva_cred_serv.Entity.Evaluacion_Credito_Entity;
+import evaluacion_credito.eva_cred_serv.Service.Evaluacion_Credito_service;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

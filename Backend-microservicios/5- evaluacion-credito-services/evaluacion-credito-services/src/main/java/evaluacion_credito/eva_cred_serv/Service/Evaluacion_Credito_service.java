@@ -1,8 +1,8 @@
-package evaluacion_credito.evaluacion_credito_services.Service;
+package evaluacion_credito.eva_cred_serv.Service;
 
-import evaluacion_credito.evaluacion_credito_services.Entity.Evaluacion_Credito_Entity;
-import evaluacion_credito.evaluacion_credito_services.Model.Solicitud_Credito_Entity;
-import evaluacion_credito.evaluacion_credito_services.Repository.Evaluacion_Credito_Repository;
+import evaluacion_credito.eva_cred_serv.Entity.Evaluacion_Credito_Entity;
+import evaluacion_credito.eva_cred_serv.Model.Solicitud_Credito_Entity;
+import evaluacion_credito.eva_cred_serv.Repository.Evaluacion_Credito_Repository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;

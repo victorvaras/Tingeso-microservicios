@@ -1,4 +1,4 @@
-package evaluacion_credito.evaluacion_credito_services.Config;
+package evaluacion_credito.eva_cred_serv.Config;
 
 import org.springframework.cloud.client.loadbalancer.LoadBalanced;
 import org.springframework.context.annotation.Bean;

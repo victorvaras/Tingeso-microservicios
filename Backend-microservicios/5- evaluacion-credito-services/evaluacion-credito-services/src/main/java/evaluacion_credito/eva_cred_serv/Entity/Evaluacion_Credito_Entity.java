@@ -1,4 +1,4 @@
-package evaluacion_credito.evaluacion_credito_services.Entity;
+package evaluacion_credito.eva_cred_serv.Entity;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
