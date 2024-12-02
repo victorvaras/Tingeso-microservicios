@@ -2,8 +2,13 @@ config-service                          Listo
 eureka-service                          Listo
 geteway-service                         Listo
 cliente-service                         Listo
-evaluacion-credito-services
-seguimiento-solicitud-services
-simulacion-credito-services         
-solicitud-credito-services
-tipo-prestamo-services
+evaluacion-credito-services             listo
+seguimiento-solicitud-services          Listo
+simulacion-credito-services             Listo
+solicitud-credito-services              Listo
+tipo-prestamo-services                  Listo
+business_logic
+
+
+
+http://localhost:8080/actuator/refresh

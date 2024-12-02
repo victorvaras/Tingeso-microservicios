@@ -26,6 +26,7 @@
 		<module>7- simulacion-credito-services/simulacion-credito-services</module>
 		<module>8- solicitud-credito-services/solicitud-credito-services</module>
 		<module>9- tipo-prestamo-services/tipo-prestamo-services</module>
+		<module>10- business-logic/business-logic</module>
     </modules>
 	<properties>
 		<java.version>17</java.version>

@@ -50,6 +50,11 @@ spring:
           predicates:
             - Path=/tipo_prestamo/**
 
+        - id: bussiness-logic-service
+          uri: lb://bussiness-logic-service
+          predicates:
+            - Path=/business_logic/**
+
        
         
 
