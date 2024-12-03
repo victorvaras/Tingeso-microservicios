@@ -86,6 +86,7 @@ public class Solicitud_Credito_Controller {
     @GetMapping("{id}")
     public ResponseEntity<Solicitud_Credito_Entity> getSolicitudeById(@PathVariable int id){
         Solicitud_Credito_Entity solicitud = solicitud_credito_service.getSolicitud_Credito(id);
+        System.out.println(solicitud.toString());
         return ResponseEntity.ok(solicitud);
     }
 
@@ -93,6 +94,13 @@ public class Solicitud_Credito_Controller {
     @PutMapping("cambio_seguiminto_solicitud/{id_solicitud}/{id_seguimiento}")
     public ResponseEntity<Solicitud_Credito_Entity> updateSolicitud_Seguimiento(@PathVariable int id_solicitud,@PathVariable int id_seguimiento){
         Solicitud_Credito_Entity update = solicitud_credito_service.updateSolicitud_Credito_SeguimientoSolicitud(id_solicitud, id_seguimiento);
+        return ResponseEntity.ok(update);
+    }
+
+
+    @PutMapping
+    public ResponseEntity<Solicitud_Credito_Entity> updateSolicitudCredito(@RequestBody Solicitud_Credito_Entity solicitud){
+        Solicitud_Credito_Entity update = solicitud_credito_service.updateSolicitudCredito(solicitud);
         return ResponseEntity.ok(update);
     }
 }

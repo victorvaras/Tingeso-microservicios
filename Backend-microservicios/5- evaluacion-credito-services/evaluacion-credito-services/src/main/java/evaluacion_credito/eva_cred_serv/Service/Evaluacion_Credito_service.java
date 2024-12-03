@@ -28,4 +28,9 @@ public class Evaluacion_Credito_service {
         return evaluacion_credito_repository.save(nuevo);
     }
 
+
+    public Evaluacion_Credito_Entity updateEvaluacion_Credito(Evaluacion_Credito_Entity nuevo){
+        return evaluacion_credito_repository.save(nuevo);
+    }
+
 }

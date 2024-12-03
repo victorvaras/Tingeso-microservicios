@@ -12,6 +12,7 @@
         <module name="cliente-service" />
         <module name="evaluacion-credito-services" />
         <module name="config-service" />
+        <module name="business-logic" />
         <module name="geteway-service" />
         <module name="simulacion-credito-services" />
         <module name="seguimiento-solicitud-services" />
@@ -22,6 +23,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="Backend-microservicios" options="" />
+      <module name="business-logic" options="-parameters" />
       <module name="cliente-service" options="-parameters" />
       <module name="config-service" options="-parameters" />
       <module name="eureka-service" options="-parameters" />

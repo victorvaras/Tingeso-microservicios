@@ -28,4 +28,10 @@ public class Evaluacion_Credito_Controller {
 
         return ResponseEntity.ok(evaluacion);
     }
+
+    @PutMapping
+    public ResponseEntity<Evaluacion_Credito_Entity> updateEvaluacionCredito(@RequestBody Evaluacion_Credito_Entity evaluacion) {
+        Evaluacion_Credito_Entity update = evaluacion_credito_service.updateEvaluacion_Credito(evaluacion);
+        return ResponseEntity.ok(update);
+    }
 }

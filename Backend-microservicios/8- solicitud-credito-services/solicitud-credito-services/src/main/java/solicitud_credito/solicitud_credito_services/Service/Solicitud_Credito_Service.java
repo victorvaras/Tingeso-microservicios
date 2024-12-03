@@ -55,5 +55,10 @@ public class Solicitud_Credito_Service {
 
     }
 
+
+    public Solicitud_Credito_Entity updateSolicitudCredito(Solicitud_Credito_Entity update){
+        return solicitud_Credito_Repository.save(update);
+    }
+
 }
 
