@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/Backend-microservicios/1- config-service/config-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Backend-microservicios/10- business-logic/business-logic/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Backend-microservicios/2- eureka-service/eureka-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Backend-microservicios/3- geteway-service/geteway-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Backend-microservicios/4- cliente-service/cliente-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Backend-microservicios/5- evaluacion-credito-services/evaluacion-credito-services/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Backend-microservicios/6- seguimiento-solicitud-services/seguimiento-solicitud-services/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Backend-microservicios/7- simulacion-credito-services/simulacion-credito-services/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Backend-microservicios/8- solicitud-credito-services/solicitud-credito-services/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Backend-microservicios/9- tipo-prestamo-services/tipo-prestamo-services/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Backend-microservicios/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Backend-microservicios/src/main/resources" charset="UTF-8" />
+  </component>
+</project>

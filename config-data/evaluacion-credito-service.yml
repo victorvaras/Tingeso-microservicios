@@ -6,7 +6,7 @@ spring:
     name: evaluacion-credito-service
   datasource:
     driver-class-name: org.postgresql.Driver
-    url: jdbc:postgresql://localhost:5432/Microservicio_EvaluacionCredito
+    url: jdbc:postgresql://localhost:5432/microservicio_evaluacion-credito
     username: victorvaraspro
     password: hola2020
   jpa:

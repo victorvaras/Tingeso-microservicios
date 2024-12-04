@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="eureka-service" />
+        <module name="tipo-prestamo-services" />
+        <module name="cliente-service" />
+        <module name="evaluacion-credito-services" />
+        <module name="config-service" />
+        <module name="business-logic" />
+        <module name="geteway-service" />
+        <module name="simulacion-credito-services" />
+        <module name="seguimiento-solicitud-services" />
+        <module name="solicitud-credito-services" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="business-logic" options="-parameters" />
+      <module name="cliente-service" options="-parameters" />
+      <module name="config-service" options="-parameters" />
+      <module name="eureka-service" options="-parameters" />
+      <module name="evaluacion-credito-services" options="-parameters" />
+      <module name="geteway-service" options="-parameters" />
+      <module name="seguimiento-solicitud-services" options="-parameters" />
+      <module name="simulacion-credito-services" options="-parameters" />
+      <module name="solicitud-credito-services" options="-parameters" />
+      <module name="tipo-prestamo-services" options="-parameters" />
+    </option>
+  </component>
+</project>
