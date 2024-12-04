@@ -1,6 +1,6 @@
 CREATE DATABASE microservicio_cliente;
-CREATE DATABASE microservicio_evaluacion-credito;
-CREATE DATABASE microservicio_seguimiento-solicitud;
-CREATE DATABASE microservicio-simulacion-credito;
-CREATE DATABASE microservicio-solicitud-credito;
-CREATE DATABASE microservicio-tipo-prestamo;
+CREATE DATABASE microservicio_evaluacion_credito;
+CREATE DATABASE microservicio_seguimiento_solicitud;
+CREATE DATABASE microservicio_simulacion_credito;
+CREATE DATABASE microservicio_solicitud_credito;
+CREATE DATABASE microservicio_tipo_prestamo;

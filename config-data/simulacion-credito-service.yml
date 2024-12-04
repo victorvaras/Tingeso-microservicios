@@ -6,7 +6,7 @@ spring:
     name: simulacion-credito-service
   datasource:
     driver-class-name: org.postgresql.Driver
-    url: jdbc:postgresql://localhost:5432/microservicio-simulacion-credito
+    url: jdbc:postgresql://localhost:5432/microservicio_simulacion_credito
     username: victorvaraspro
     password: hola2020
   jpa:

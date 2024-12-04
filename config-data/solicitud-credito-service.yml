@@ -6,7 +6,7 @@ spring:
     name: solicitud-credito-service
   datasource:
     driver-class-name: org.postgresql.Driver
-    url: jdbc:postgresql://localhost:5432/microservicio-solicitud-credito
+    url: jdbc:postgresql://localhost:5432/microservicio_solicitud_credito
     username: victorvaraspro
     password: hola2020
   jpa:
