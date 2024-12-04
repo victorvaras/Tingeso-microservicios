@@ -6,6 +6,7 @@
 		<groupId>microservicios</groupId>
 		<artifactId>Backend-microservicios</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
+		<relativePath> ../../pom.xml</relativePath>
 	</parent>
 	<groupId>tipo-prestamo</groupId>
 	<artifactId>tipo-prestamo-services</artifactId>
@@ -81,6 +82,7 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
+		<finalName>tipo-prestamo-services</finalName>
 	</build>
 
 </project>
