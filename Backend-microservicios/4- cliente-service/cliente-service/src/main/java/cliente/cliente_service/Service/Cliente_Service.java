@@ -26,7 +26,7 @@ public class Cliente_Service {
         return cliente_repository.save(cliente);
     }
 
-
+    @Transactional
     public int LoginCliente(int rut, String password) {
         Cliente_Entity cliente = getClienteByRut(rut);
 

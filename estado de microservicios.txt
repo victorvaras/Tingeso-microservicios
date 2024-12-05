@@ -12,3 +12,38 @@ business_logic
 
 
 http://localhost:8080/actuator/refresh
+
+
+
+docker build -t victorvaraspro/config-service:latest "1- config-service\config-service"
+docker push victorvaraspro/config-service:latest
+
+docker build -t victorvaraspro/eureka-service:latest "2- eureka-service\eureka-service"
+docker push victorvaraspro/eureka-service:latest
+
+docker build -t victorvaraspro/geteway-service:latest "3- geteway-service\geteway-service"
+docker push victorvaraspro/geteway-service:latest
+
+docker build -t victorvaraspro/cliente-service:latest "4- cliente-service\cliente-service"
+docker push victorvaraspro/cliente-service:latest
+
+docker build -t victorvaraspro/evaluacion-credito-services:latest "5- evaluacion-credito-services\evaluacion-credito-services"
+docker push victorvaraspro/evaluacion-credito-services:latest
+
+docker build -t victorvaraspro/seguimiento-solicitud-services:latest "6- seguimiento-solicitud-services\seguimiento-solicitud-services"
+docker push victorvaraspro/seguimiento-solicitud-services:latest
+
+docker build -t victorvaraspro/simulacion-credito-services:latest "7- simulacion-credito-services\simulacion-credito-services"
+docker push victorvaraspro/simulacion-credito-services:latest
+
+docker build -t victorvaraspro/solicitud-credito-services:latest "8- solicitud-credito-services\solicitud-credito-services"
+docker push victorvaraspro/solicitud-credito-services:latest
+
+docker build -t victorvaraspro/tipo-prestamo-services:latest "9- tipo-prestamo-services\tipo-prestamo-services"
+docker push victorvaraspro/tipo-prestamo-services:latest
+
+docker build -t victorvaraspro/business_logic:latest "10- business-logic\business-logic"
+docker push victorvaraspro/business_logic:latest
+
+
+
