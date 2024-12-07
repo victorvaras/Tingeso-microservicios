@@ -22,7 +22,7 @@ public class Tipo_Prestamo_Entity {
 }
 
 /*
-INSERT INTO public.tipo_prestamo(
+INSERT INTO tipo_prestamo(
     id_tipo_prestamo, plazo_maximo, porcentaje_maximo_financiamiento, tasa_anual, nombre_tipo_prestamo)
 VALUES
     (1, 30, 80, 5, 'Primera Vivienda'),

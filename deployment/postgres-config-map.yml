@@ -5,5 +5,8 @@ metadata:
   labels:
     app: postgres-config-map
 data:
-  DB_HOST_TIPO-PRESTAMO: postgres
+  DB_HOST_TIPO-PRESTAMO: tipo-prestamo-db-service
   DB_PORT_TIPO-PRESTAMO: "5432"
+
+  DB_HOST_SEGUIMIENTO-SOLICITUD: seguimiento-solicitud-db-service
+  DB_PORT_SEGUIMIENTO-SOLICITUD: "5432"

@@ -1,0 +1,42 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: seguimiento-solicitud-deployment
+  labels:
+    app: seguimiento-solicitud-deployment
+spec:
+  selector:
+    matchLabels:
+      app: seguimiento-solicitud-deployment
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: seguimiento-solicitud-deployment
+    spec:
+      containers:
+        - name: tipo-prestamo
+          image: victorvaraspro/seguimiento-solicitud-services:latest        
+          env:
+            - name: SERVER_PORT
+              value: "0"
+            - name: DB_HOST
+              valueFrom:
+                configMapKeyRef:
+                  name: postgres-config-map
+                  key: DB_HOST_SEGUIMIENTO-SOLICITUD
+            - name: DB_PORT
+              valueFrom:
+                configMapKeyRef:
+                  name: postgres-config-map
+                  key: DB_PORT_SEGUIMIENTO-SOLICITUD
+            - name: DB_USER
+              valueFrom:
+                secretKeyRef:
+                  name: postgres-credentials
+                  key: DB_USER_SEGUIMIENTO-SOLICITUD
+            - name: DB_PASSWORD
+              valueFrom:
+                secretKeyRef:
+                  name: postgres-credentials
+                  key: DB_PASSWORD_SEGUIMIENTO-SOLICITUD

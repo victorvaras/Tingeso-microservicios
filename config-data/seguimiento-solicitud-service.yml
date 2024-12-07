@@ -6,9 +6,9 @@ spring:
     name: seguimiento-solicitud-service
   datasource:
     driver-class-name: org.postgresql.Driver
-    url: jdbc:postgresql://localhost:5432/microservicio_seguimiento_solicitud
-    username: victorvaraspro
-    password: hola2020
+    url: jdbc:postgresql://${DB_HOST}:${DB_PORT}/microservicio_seguimiento_solicitud
+    username: ${DB_USER}
+    password: ${DB_PASSWORD}
   jpa:
     database: POSTGRESQL
     show-sql: true
@@ -17,9 +17,8 @@ spring:
 eureka:
   instance:
     preferIpAddress: true
-    ip-address: localhost
   client:
     service-url:
-      defaultZone: http://localhost:8761/eureka
+      defaultZone: http://eureka-deployment:8761/eureka
     fetch-registry: true
     register-with-eureka: true
