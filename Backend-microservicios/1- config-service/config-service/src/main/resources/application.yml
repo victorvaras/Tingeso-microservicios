@@ -7,6 +7,6 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/victorvaras/config-data.git
+          uri: https://github.com/victorvaras/Tingeso-microservicios.git
           default-label: main
           search-paths: config-data

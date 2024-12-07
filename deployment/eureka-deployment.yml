@@ -15,7 +15,7 @@ spec:
         app: eureka-deployment
     spec:
       containers:
-        - name: eureka
+        - name: eureka-deployment
           image: victorvaraspro/eureka-service:latest  # Cambia esta imagen por la correcta
           ports:
             - containerPort: 8761  # El puerto estándar de Eureka
@@ -23,7 +23,7 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  name: eureka-service
+  name: eureka-deployment
   labels:
     app: eureka-deployment
 spec:
