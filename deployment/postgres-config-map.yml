@@ -10,3 +10,17 @@ data:
 
   DB_HOST_SEGUIMIENTO-SOLICITUD: seguimiento-solicitud-db-service
   DB_PORT_SEGUIMIENTO-SOLICITUD: "5432"
+
+  DB_HOST_CLIENTE: cliente-db-service
+  DB_PORT_CLIENTE: "5432"
+
+  DB_HOST_EVALUACION-CREDITO: evaluacion-credito-db-service
+  DB_PORT_EVALUACION-CREDITO: "5432"
+
+  DB_HOST_SIMULACION-CREDITO: simulacion-credito-db-service
+  DB_PORT_SIMULACION-CREDITO: "5432"
+
+  DB_HOST_SOLICITUD-CREDITO: solicitud-credito-db-service
+  DB_PORT_SOLICITUD-CREDITO: "5432"
+
+  

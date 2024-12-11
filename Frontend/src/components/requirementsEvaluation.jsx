@@ -236,9 +236,29 @@ const RequirementsEvaluation = () => {
 
     
     return (
+        
         <div>
-            <h1 style={{ fontSize: '2em' }}>Evaluación de Requerimientos</h1>
+            <select 
+                onChange={(e) => setRequerimientoActual(parseInt(e.target.value))} 
+                style={{ fontSize: '1em', marginBottom: '20px', marginTop: '120px' }}
+            >
+                <option value="1">Requerimiento 1</option>
+                <option value="2">Requerimiento 2</option>
+                <option value="3">Requerimiento 3</option>
+                <option value="4">Requerimiento 4</option>
+                <option value="5">Requerimiento 5</option>
+                <option value="6">Requerimiento 6</option>
+                <option value="71">Requerimiento 7.1</option>
+                <option value="72">Requerimiento 7.2</option>
+                <option value="73">Requerimiento 7.3</option>
+                <option value="74">Requerimiento 7.4</option>
+                <option value="75">Requerimiento 7.5</option>
+                <option value="100">Estado final de Requerimientos</option>
+            </select>
 
+
+            <h1 style={{ fontSize: '2em' }}>Evaluación de Requerimientos</h1>
+            
             {requerimientoActual === 1 && (
                 <div>
                     <p style={{ fontSize: '1.5em' }}>Requerimiento 1</p>

@@ -47,3 +47,7 @@ docker push victorvaraspro/business_logic:latest
 
 
 
+npm run build
+docker build -t victorvaraspro/tingeso-frontend-microservicios:latest .
+docker push victorvaraspro/tingeso-frontend-microservicios:latest
+

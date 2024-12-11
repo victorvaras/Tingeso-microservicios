@@ -1,0 +1,40 @@
+kubectl apply -f config-deployment.yml
+kubectl apply -f eureka-deployment.yml
+kubectl apply -f gateway-deployment.yml
+kubectl apply -f postgres-secret.yml
+kubectl apply -f postgres-config-map.yml
+
+kubectl apply -f tipo-prestamo-DB.yml
+kubectl apply -f tipo-prestamo-deployment.yml
+
+kubectl apply -f seguimiento-solicitud-DB.yml
+kubectl apply -f seguimiento-solicitud-deployment.yml
+
+kubectl apply -f bussiness-logic-deployment.yml
+
+kubectl apply -f cliente-DB.yml
+kubectl apply -f cliente-deployment.yml
+
+kubectl apply -f evaluacion-credito-DB.yml
+kubectl apply -f evaluacion-credito-deployment.yml
+
+kubectl apply -f simulacion-credito-DB.yml
+kubectl apply -f simulacion-credito-deployment.yml
+
+kubectl apply -f solicitud-credito-DB.yml
+kubectl apply -f solicitud-credito-deployment.yml
+
+kubectl apply -f frontend-deployment.yml
+
+
+//ver frontend
+minikube service frontend-deployment-service
+
+//Para que conecte front con geteway
+kubectl port-forward svc/gateway-deploymen 8080:8080
+
+minikube tunnel     //Para exponer puertos y conectar con front
+minikube dashboard  //interfaz grafica de minikube
+
+kubectl exec -it <nombre-bd-pod> -- /bin/bash    //para entrar en base de datos
+psql -U victorvaraspro
